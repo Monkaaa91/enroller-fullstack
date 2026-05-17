@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.meeting-actions button {
+  margin-right: 1rem;
+}
+.button-danger {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
+  background: transparent;
+}
+
+.button-danger:hover {
+  background: #e74c3c;
+  color: white;
+}
+button.button:hover {
+  background-color: #e1e1e1 !important;
+  color: #000 !important;
+}
+button.button:active,
+button.button:focus {
+  background-color: #9b4dca !important;
+  color: white !important;
+  border-color: #9b4dca !important;
+}
